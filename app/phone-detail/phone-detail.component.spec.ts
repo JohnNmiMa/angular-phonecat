@@ -7,7 +7,7 @@ describe('phoneDetail', function() {
 
   // Test the controller
   describe('PhoneDetailController', function() {
-    var $httpBackend:any, ctrl:any;
+    var $httpBackend:angular.IHttpBackendService, ctrl:any;
     var xyzPhoneData = {
       name: 'phone xyz',
       images: ['image/url1.png', 'image/url2.png']

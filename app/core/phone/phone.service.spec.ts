@@ -1,8 +1,8 @@
 'use strict';
 
 describe('Phone', function() {
-  var $httpBackend;
-  var Phone;
+  var $httpBackend:angular.IHttpBackendService;
+  var Phone:any;
   var phonesData = [
     {name: 'Phone X'},
     {name: 'Phone Y'},

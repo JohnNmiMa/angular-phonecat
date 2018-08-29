@@ -7,7 +7,7 @@ describe('phoneList', function() {
 
   // Test the controller
   describe('PhoneListController', function() {
-    var $httpBackend, ctrl:any;
+    var $httpBackend:angular.IHttpBackendService, ctrl:any;
 
     beforeEach(inject(function($componentController, _$httpBackend_) {
       $httpBackend = _$httpBackend_;
